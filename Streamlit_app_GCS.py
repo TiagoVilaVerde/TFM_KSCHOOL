@@ -5,13 +5,7 @@ st.set_page_config(layout="wide")
 
 st.title('Top European Football National Leagues Predictions')
 
-df_final_user_route = 'https://storage.googleapis.com/tiago-tfm-kschool/Table_final_user.csv'
-
-def load_data(nrows):
-    df = pd.read_csv(df_final_user_route, nrows=nrows)
-    return df
-
-df = load_data(500000)
+df = pd.read_csv('https://storage.googleapis.com/tiago-tfm-kschool/Table_final_user.csv')
 
 last_update_date = list(df['Last update date'])[0]
 
