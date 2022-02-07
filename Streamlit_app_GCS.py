@@ -43,4 +43,4 @@ st.table(df)
 #from PIL import Image
 #image = Image.open('https://storage.googleapis.com/tiago-tfm-kschool/Football_Stadium.jpg')
 
-st.image('https://storage.googleapis.com/tiago-tfm-kschool/Football_Stadium.jpg', caption='Sunrise by the mountains')
+st.image('https://storage.googleapis.com/tiago-tfm-kschool/Football_Stadium.jpg')
