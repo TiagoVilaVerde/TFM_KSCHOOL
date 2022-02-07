@@ -40,7 +40,7 @@ st.markdown(hide_table_row_index, unsafe_allow_html=True)
 st.table(df)
 
 # Display an image
-from PIL import Image
-image = Image.open('https://storage.googleapis.com/tiago-tfm-kschool/Football_Stadium.jpg')
+#from PIL import Image
+#image = Image.open('https://storage.googleapis.com/tiago-tfm-kschool/Football_Stadium.jpg')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image('https://storage.googleapis.com/tiago-tfm-kschool/Football_Stadium.jpg', caption='Sunrise by the mountains')
