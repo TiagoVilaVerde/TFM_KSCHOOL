@@ -41,6 +41,6 @@ st.table(df)
 
 # Display an image
 from PIL import Image
-image = Image.open('https://storage.googleapis.com/tiago-tfm-kschool/Football_Stadium.jpg')
+image = Image.open('https://storage.googleapis.com/tiago-tfm-kschool/Football_Stadium.jpg',width=400)
 
 st.image(image)
