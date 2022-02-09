@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-CURRENT_THEME = "dark"
+IS_DARK_THEME = True
 
 st.set_page_config(layout="wide")
 
