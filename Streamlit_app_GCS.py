@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-IS_DARK_THEME = True
-
 st.set_page_config(layout="wide")
 
 st.title('Top European Football National Leagues Predictions')
